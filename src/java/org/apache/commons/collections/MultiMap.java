@@ -65,7 +65,6 @@ public interface MultiMap<K, V> extends IterableMap<K, Object> {
      * @throws ClassCastException if the key or value is of an invalid type
      * @throws NullPointerException if the key or value is null and null is invalid
      */
-    @Override
     public V remove(K key, V item);
 
     //-----------------------------------------------------------------------
